@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Julius+Sans+One');
 #nav {
     background-color: white !important;
-    width: 30%;
-    margin-left: 35%;
+    width: 38%;
+    margin-left: 30%;
     color: black !important;
     font-family: 'Julius Sans One', sans-serif;
     border-bottom: solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius: 0%;
 }
-
-.navbar-light .navbar-nav .nav-link {
-    color: black !important;
+#nav a :hover{
+    
 }
 
 #name {
@@ -39,12 +42,20 @@ margin-left: 25%;
     margin-left: 37%;
 }
 .card{
-    display: inline-table !important;
+    display: inline-block !important;
+    position: relative;
     border-color: black !important;
     border-width: 2pt !important;
     border-radius: 0% ;
     margin-top: 1%;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    border:solid;
+    width:30%;
+    border-radius:3%;
+}
+.card img{
+    width:100%;
+    border-radius: 3%;
 }
 .card h4{
      font-family: 'Julius Sans One', sans-serif;
@@ -53,5 +64,8 @@ margin-left: 25%;
 #accomplishments img {
     width: 30%;
     margin-top: 3%;
+}
+a:hover{
+    color: pink !important;
 }
 
