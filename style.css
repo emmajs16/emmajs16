@@ -62,10 +62,10 @@ margin-left: 25%;
      text-decoration: underline;
 }
 #accomplishments img {
-    width: 30%;
-    margin-top: 3%;
-    margin-left: 70%;
-    position: fixed;
+    width: 40%;
+    margin-top: -13%;
+    margin-left: 60%;
+    /*position: fixed;*/
 }
 a:hover{
     color: pink !important;
