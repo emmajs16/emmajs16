@@ -65,7 +65,7 @@ margin-left: 25%;
     width: 40%;
     margin-top: -13%;
     margin-left: 60%;
-    /*position: fixed;*/
+    position: fixed;
 }
 a:hover{
     color: pink !important;
