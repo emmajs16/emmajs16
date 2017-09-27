@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Julius+Sans+One');
 #nav {
     background-color: white !important;
-    width: 30%;
-    margin-left: 35%;
+    width: 38%;
+    margin-left: 30%;
     color: black !important;
     font-family: 'Julius Sans One', sans-serif;
     border-bottom: solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius: 0%;
 }
-
-.navbar-light .navbar-nav .nav-link {
-    color: black !important;
+#nav a :hover{
+    
 }
 
 #name {
@@ -36,22 +39,54 @@ margin-left: 25%;
     margin-top: 5%;
 }
 #media{
-    margin-left: 37%;
+    margin-left: 34%;
 }
 .card{
-    display: inline-table !important;
+    display: inline-block !important;
+    position: relative;
     border-color: black !important;
     border-width: 2pt !important;
     border-radius: 0% ;
     margin-top: 1%;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    border:solid;
+    width:30%;
+    border-radius:3%;
+}
+.card img{
+    width:100%;
+    border-radius: 3%;
 }
 .card h4{
      font-family: 'Julius Sans One', sans-serif;
      text-decoration: underline;
 }
+/*set image to stay to the side*/
 #accomplishments img {
-    width: 30%;
-    margin-top: 3%;
+    width: 40%;
+    margin-top: -13%;
+    margin-left: 60%;
+    position: fixed;
 }
-
+a:hover{
+    color: pink !important;
+}
+.event h3{
+    width: 60%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: medium;
+}
+#accomplishments{
+    display: inline;
+}
+.btn{
+    color:black !important;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: white !important;
+    border-top:none !important;
+    border-left:none !important;
+    border-right:none !important;
+    width: 50%;
+    border-radius: 0% !important;
+    border-bottom-color: black !important;
+}
