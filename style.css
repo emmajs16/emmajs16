@@ -39,7 +39,7 @@ margin-left: 25%;
     margin-top: 5%;
 }
 #media{
-    margin-left: 37%;
+    margin-left: 34%;
 }
 .card{
     display: inline-block !important;
@@ -64,8 +64,28 @@ margin-left: 25%;
 #accomplishments img {
     width: 30%;
     margin-top: 3%;
+    margin-left: 70%;
+    position: fixed;
 }
 a:hover{
     color: pink !important;
 }
-
+.event h3{
+    width: 60%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: medium;
+}
+#accomplishments{
+    display: inline;
+}
+.btn{
+    color:black !important;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: white !important;
+    border-top:none !important;
+    border-left:none !important;
+    border-right:none !important;
+    width: 50%;
+    border-radius: 0% !important;
+    border-bottom-color: black !important;
+}
