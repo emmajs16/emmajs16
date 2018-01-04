@@ -10,12 +10,15 @@
     border-left:none;
     border-right:none;
     border-radius: 0%;
-    text-align: center;
+    text-align: center !important;
 }
 
+#nav a{
+    font-size: 200%;
+}
 #name {
-    /*size: 30% !important;*/
-    margin-left: 37%;
+    font-size: 400%;
+    text-align: center !important;
     font-family: 'Homemade Apple', cursive;
     padding-top: 5%;
     padding-bottom: 2%;
@@ -25,7 +28,7 @@
     border-radius: 50%;
 margin-left: 25%;
     width: 10%;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 #about_text{
     margin-left:40%;
