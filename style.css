@@ -84,3 +84,7 @@ font-family: 'Homemade Apple', cursive !important;
 #img-responsive{
     width:100%;
 }
+#social-media img{
+    width: 20%;
+    padding-right: 5%;
+}
