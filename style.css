@@ -30,7 +30,7 @@ h1{
 font-family: 'Homemade Apple', cursive !important;
 }
  body {
-      position: relative; 
+      position: relative;
   }
   /*#start {*/
   /*  margin-top: 5%;*/
@@ -47,7 +47,7 @@ font-family: 'Homemade Apple', cursive !important;
     width: 90%;
     padding-top:50px;
     height:500px;
-    color: #fff; 
+    color: #fff;
     background-color: #A8A8B5;
   }
   #works {
@@ -56,16 +56,16 @@ font-family: 'Homemade Apple', cursive !important;
     width: 90%;
     padding-top:50px;
     height:500px;
-    color: #fff; 
+    color: #fff;
     background-color: #575564;
   }
-#accomplishments {
+#experiences {
       margin-top: 5%;
     margin-left: 5%;
     width: 90%;
     padding-top:50px;
     height:500px;
-    color: #fff; 
+    color: #fff;
     background-color:#575564;
   }
 #connect {
@@ -74,11 +74,11 @@ font-family: 'Homemade Apple', cursive !important;
     width: 90%;
     padding-top:50px;
     height:500px;
-    color: #fff; 
+    color: #fff;
     background-color: #A8A8B5;
   }
 #me{
-    width:25%;
+    width:30%;
 
 }
 #img-responsive{
@@ -88,4 +88,8 @@ font-family: 'Homemade Apple', cursive !important;
     width: 20%;
     padding-right: 5%;
     filter: brightness(0) invert(1);
+}
+#experiences-list{
+width:90%;
+margin-left: 5%;
 }
