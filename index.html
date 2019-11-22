@@ -1,123 +1,164 @@
-experiences<!DOCTYPE html>
+experiences
+<!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Emma Stoverink</title>
-  <script type="text/javascript" src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Emma Stoverink</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="script.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <h1>Emma Stoverink</h1>
-        <ul class="nav navbar-nav">
-          <li><a href="#start">About</a></li>
-          <li><a href="#experiences">Experiences</a></li>
-          <li><a href="#connect">Connect</a></li>
-          <li><a href="#works">Code</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div id="start" class="container-fluid">
-    <h1>Hi! I'm Emma!</h1>
-    <img id="me" src="images/emma.jpg"></img>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <!-- <span class="icon-bar"></span> -->
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <h1>Emma Stoverink</h1>
+                <ul class="nav navbar-nav">
+                    <li><a href="#start">About</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                    <li><a href="#works">Code</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="start" class="container-fluid">
+        <h1>Hi! I'm Emma!</h1>
+        <img id="me" src="images/emma.jpg"></img>
 
-  </div>
-
-  <div id="experiences" class="container-fluid">
-    <h1>Experiences</h1>
-    <div id ="experiences-list">
-      <div class="row">
-        <div class="col-sm-3">
-          <h3>Teaching Assistant</h3>
-          <p>Kode With Klossy</p>
-          <!-- <a href="https://emmajs16.github.io/Refresh/test.html"><img src="images/refresh.JPG" class="img-responsive" style="width:100%" alt="Image"></a> -->
-        </div>
-        <div class="col-sm-3">
-          <h3>Founder & Teacher</h3>
-          <p>Let's Code, Girls!</p>
-        </div>
-        <div class="col-sm-3">
-          <h3>Ambassador</h3>
-          <p>Florida Southern College</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3">
-          <h3>3rd Place College Division</h3>
-          <p>GlobalHack VII</p>
-          <!-- <a href="https://emmajs16.github.io/Refresh/test.html"><img src="images/refresh.JPG" class="img-responsive" style="width:100%" alt="Image"></a> -->
-        </div>
-        <div class="col-sm-3">
-          <h3>1st Place Youth Division</h3>
-          <p>GlobalHack VI</p>
-        </div>
-        <div class="col-sm-3">
-          <h3>Aspirations in Computing Affiliate Award</h3>
-          <p>National Center for Women and Informational Technology</p>
-        </div>
-      </div>
-    </div>
-</div>
-  <div id="connect" class="container-fluid">
-    <h1>Connect</h1>
-    <div id = "social-media">
-      <a href="https://twitter.com/emmajs16"><img src="http://hstrial-sunbeltmaster.homestead.com/Twitter_icon_1_color.png"></a>
-      <a href="https://www.linkedin.com/in/emmastoverink/"><img src="https://png.icons8.com/metro/1600/linkedin.png"></a>
-      <a href="https://www.instagram.com/emmajs16"><img src="https://www.freepnglogos.com/uploads/black-instagram-logo-icon-png-10.png"></a>
-      <a href="https://www.github.com/emmajs16"><img src="http://freevector.co/wp-content/uploads/2013/07/24233-github-logo-in-a-rounded-square1.png"></a>
     </div>
 
-  </div>
+    <div id="experiences" class="container-fluid">
+        <h1>Experiences</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <h2>Teaching Assistant</h2>
+                    <h3>Kode With Klossy</h3>
+                    <ul>
+                        <li>Aided in teaching Ruby, HTML, CSS, and JavaScript to classes of approximately 20 girls ages 13-18 </li>
+                        <li>Coordinated logistics with management, caterers, and guest speakers to help the camp run smoothly</li>
+                        <li>Collaborated with three other teachers to create a supportive and empowering learning environment by promoting communication and teamwork in the classroom</li>
+                    </ul>
+                    <!-- <img src="images/kwk.png" alt="Kode With Klossy"> -->
+                </div>
+
+                <div class="item">
+                    <h2>Southern Ambassador</h2>
+                    <h3>Florida Southern College</h3>
+                    <ul>
+                        <li>Served as a Florida Southern College representative to prospective students and families</li>
+                        <li>Collaborated with co-guides to share information about the college and address questions from prospective students and families</li>
+                        <li>Communicated to groups ranging in size from 5-30, presenting information tailored to each student’s interest</li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <h2>Founder and Instructor</h2>
+                    <h3>Let's Code, Girls!</h3>
+                    <ul>
+                        <li>Developed a curriculum and ran a free one week programming camp for middle school girls</li>
+                        <li>Designed print and online marketing and managed communication and registration</li>
+                        <li>Planned logistics such as location, materials, and snacks in order to create a supportive learning environment</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h2>Grace Hopper Celebration 2019 Travel Grant Recipient</h2>
+                    <h3>NCWIT and Bloomberg</h3>
+                    <ul>
+                        <li>Received 1 out of 14 travel grants to attend the Grace Hopper Celebration in Orlando FL</li>
+                        <li>Learned from various speakers on topics such as being brave in a career and augmented reality </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h2>Aspirations in Computing Affiliate Award</h2>
+                    <h3>NCWIT</h3>
+                    <ul>
+                        <li>Selected based on aptitude and aspirations in technology and computing, as demonstrated by computing experience, computing-related activities,and leadership experience</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="connect" class="container-fluid">
+        <h1>Connect</h1>
+        <div id="social-media">
+            <a href="https://twitter.com/emmajs16"><img src="http://hstrial-sunbeltmaster.homestead.com/Twitter_icon_1_color.png"></a>
+            <a href="https://www.linkedin.com/in/emmastoverink/"><img src="https://png.icons8.com/metro/1600/linkedin.png"></a>
+            <a href="https://www.instagram.com/emmajs16"><img src="https://www.freepnglogos.com/uploads/black-instagram-logo-icon-png-10.png"></a>
+            <a href="https://www.github.com/emmajs16"><img src="http://freevector.co/wp-content/uploads/2013/07/24233-github-logo-in-a-rounded-square1.png"></a>
+        </div>
+
+    </div>
 
     <div id="works" class="container-fluid">
-    <h1>Code</h1>
-    <div class="container-fluid bg-3 text-center">
-      <div class="row">
-        <div class="col-sm-3">
-          <p>Refresh</p>
-          <a href="https://emmajs16.github.io/Refresh/test.html"><img src="images/refresh.JPG" class="img-responsive" style="width:100%" alt="Image"></a>
+        <h1>Code</h1>
+        <div class="container-fluid bg-3 text-center">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>Refresh</p>
+                    <a href="https://emmajs16.github.io/Refresh/test.html"><img src="images/refresh.JPG" class="img-responsive" style="width:100%" alt="Image"></a>
+                </div>
+                <div class="col-sm-3">
+                    <p>Learning With Style</p>
+                    <a href="https://emmajs16.github.io/LearningWithStyle"><img src="images/lws.JPG" class="img-responsive" style="width:100%" alt="Image"></a>
+                </div>
+                <div class="col-sm-3">
+                    <p>Foundation</p>
+                    <a href="https://http://strongfoundation.herokuapp.com"><img src="images/foundation.JPG" class="img-responsive" style="width:100%" alt="Image"></a>
+                </div>
+                <div class="col-sm-3">
+                    <p>Compass</p>
+                    <a href="https://emmajs16.github.io/compass"><img src="images/compass.png" class="img-responsive" style="width:100%" alt="Image"></a>
+                </div>
+            </div>
+            <br>
+            <h3>PYTHON | JAVA | SQL | HTML | CSS | RUBY | JAVASCRIPT | SWIFT</h3>
         </div>
-        <div class="col-sm-3">
-          <p>Learning With Style</p>
-          <a href="https://emmajs16.github.io/LearningWithStyle"><img src="images/lws.JPG" class="img-responsive" style="width:100%" alt="Image"></a>
-        </div>
-        <div class="col-sm-3">
-          <p>Foundation</p>
-          <a href="https://http://strongfoundation.herokuapp.com"><img src="images/foundation.JPG" class="img-responsive" style="width:100%" alt="Image"></a>
-        </div>
-        <div class="col-sm-3">
-          <p>VR Instagram</p>
-          <a href="https://emmajs16.github.io/VR-instagram"><img src="images/ig.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-        </div>
-      </div>
-      <br>
-      <h3>PYTHON | JAVA | HTML | CSS | RUBY | JAVASCRIPT | SWIFT</h3>
     </div>
-      </div>
     </div>
-
+    <script type="text/javascript">
+        $('.carousel').carousel()
+    </script>
 </body>
 
 </html>

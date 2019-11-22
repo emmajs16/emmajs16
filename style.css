@@ -89,7 +89,18 @@ font-family: 'Homemade Apple', cursive !important;
     padding-right: 5%;
     filter: brightness(0) invert(1);
 }
-#experiences-list{
-width:90%;
-margin-left: 5%;
+.item {
+    height: 75%;
+}
+.item ul{
+    width:50%;
+    margin-left: 23%;
+    list-style-position: inside;
+}
+.carousel-control{
+    background: none !important;
+}
+#works img{
+    height: 150px;
+    object-fit: cover;
 }
