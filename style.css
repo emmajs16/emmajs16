@@ -7,16 +7,33 @@ body{
 }
 nav{
     background-color: #FFD2C4 !important;
-    border: none !important;
+    background-image: none !important;
     width: 100%;
-}
-nav ul{
-    text-align: center;
-    margin-left: 35% !important;
 }
 nav a{
     /*color: #FFD9D2 !important;*/
 }
+#home{
+    background-image: url("images/emma.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+#home button{
+    background-color: #FFD2C4 !important;
+    margin-top: 50vh;
+    width: 200px;
+    height: 60px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#home button:hover{
+    box-shadow: none;
+}
+.about{
+    height: 90vh;
+}
+
 .content{
     margin:5%;
     margin-left: 15%;
@@ -32,42 +49,39 @@ font-family: 'Homemade Apple', cursive !important;
  body {
       position: relative;
   }
-  /*#start {*/
-  /*  margin-top: 5%;*/
-  /*  margin-left: 5%;*/
-  /*  width: 90%;*/
-  /*  padding-top:50px;*/
-  /*  height:500px;*/
-  /*  color: #fff; */
-  /*  background-color: #FFA49D;*/
-  /*}*/
-  #start {
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 90%;
-    padding-top:50px;
-    height:500px;
-    color: #fff;
+
+.about{
+    display: flex;
+}
+.me{
+    width:40%;
+    font-size: 5px !important;
+}
+.me h1{
+    font-size: 20px !important;
+}
+.me img{
+    width:70%;
+}
+.info{
+    width:80%;
+    margin-right: 10%;
+}
+
+.description{
+text-align: center;
+  height: 80%;
+  margin-top: 10%;
+}
+
+
+#experiences{
     background-color: #A8A8B5;
-  }
-  #works {
-      margin-top: 5%;
-    margin-left: 5%;
-    width: 90%;
-    padding-top:50px;
-    height:500px;
-    color: #fff;
-    background-color: #575564;
-  }
-#experiences {
-      margin-top: 5%;
-    margin-left: 5%;
-    width: 90%;
-    padding-top:50px;
-    height:500px;
-    color: #fff;
-    background-color:#575564;
-  }
+}
+#education{
+    margin-top: 5px;
+    background-color: #A8A8B5;
+}
 #connect {
       margin-top: 5%;
     margin-left: 5%;
@@ -77,30 +91,20 @@ font-family: 'Homemade Apple', cursive !important;
     color: #fff;
     background-color: #A8A8B5;
   }
-#me{
-    width:30%;
-
-}
 #img-responsive{
     width:100%;
 }
 #social-media img{
     width: 20%;
     padding-right: 5%;
-    filter: brightness(0) invert(1);
 }
-.item {
-    height: 75%;
+
+#works{
+margin-top: 2%;
 }
-.item ul{
-    width:50%;
-    margin-left: 23%;
-    list-style-position: inside;
+.card-columns{
+display: block;
 }
-.carousel-control{
-    background: none !important;
-}
-#works img{
-    height: 150px;
-    object-fit: cover;
+.card-img-top{
+    height: 200px;
 }
